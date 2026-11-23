@@ -63,4 +63,5 @@ jobs:
           app-name: 'gen13-app-step3-1-131-fe'
           slot-name: 'Production'
           package: release.zip
+          clean: true
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_07ED2B58F65840A7935486A0D18002C5 }}
